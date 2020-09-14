@@ -1,0 +1,69 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 09/09/2020 09:46
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src:url("../fonts/Flaticon.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-clock:before { content: "\f100"; }
+.flaticon-factory:before { content: "\f101"; }
+.flaticon-truck:before { content: "\f102"; }
+.flaticon-contract:before { content: "\f103"; }
+.flaticon-paint:before { content: "\f104"; }
+.flaticon-window:before { content: "\f105"; }
+.flaticon-phone:before { content: "\f106"; }
+.flaticon-monitor:before { content: "\f107"; }
+.flaticon-consulting:before { content: "\f108"; }
+.flaticon-facebook:before { content: "\f109"; }
+.flaticon-telegram:before { content: "\f10a"; }
+.flaticon-instagram:before { content: "\f10b"; }
+.flaticon-right-arrow:before { content: "\f10c"; }
+.flaticon-left-arrow:before { content: "\f10d"; }
+.flaticon-address:before { content: "\f10e"; }
+.flaticon-arrow:before { content: "\f10f"; }
+.flaticon-ruler:before { content: "\f110"; }
+    
+    $font-Flaticon-clock: "\f100";
+    $font-Flaticon-factory: "\f101";
+    $font-Flaticon-truck: "\f102";
+    $font-Flaticon-contract: "\f103";
+    $font-Flaticon-paint: "\f104";
+    $font-Flaticon-window: "\f105";
+    $font-Flaticon-phone: "\f106";
+    $font-Flaticon-monitor: "\f107";
+    $font-Flaticon-consulting: "\f108";
+    $font-Flaticon-facebook: "\f109";
+    $font-Flaticon-telegram: "\f10a";
+    $font-Flaticon-instagram: "\f10b";
+    $font-Flaticon-right-arrow: "\f10c";
+    $font-Flaticon-left-arrow: "\f10d";
+    $font-Flaticon-address: "\f10e";
+    $font-Flaticon-arrow: "\f10f";
+    $font-Flaticon-ruler: "\f110";
